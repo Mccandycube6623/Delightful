@@ -65,7 +65,6 @@ public class JEIPlugin implements IModPlugin
         registration.addIngredientInfo(Items.MELON.getDefaultInstance(), VanillaTypes.ITEM_STACK, Component.translatable("delightful.sliceable.desc"));
         registration.addIngredientInfo(Items.PUMPKIN.getDefaultInstance(), VanillaTypes.ITEM_STACK, Component.translatable("delightful.sliceable.desc"));
     }
-
     @Override
     public ResourceLocation getPluginUid() {
         return ID;
